@@ -1,0 +1,107 @@
+{
+  "config": {
+    "room": [
+      10.0,
+      10.0,
+      5.0
+    ],
+    "fixture_centres": [
+      [
+        -2.5,
+        -2.5,
+        5.0
+      ],
+      [
+        -2.5,
+        2.5,
+        5.0
+      ],
+      [
+        2.5,
+        -2.5,
+        5.0
+      ],
+      [
+        2.5,
+        2.5,
+        5.0
+      ]
+    ],
+    "leds_per_side": 5,
+    "led_pitch": 0.1,
+    "led_power": 2.6,
+    "pd_area": 0.0001,
+    "half_power_angle_deg": 60.0,
+    "fov_deg": 85.0,
+    "refractive_index": 1.5,
+    "responsivity": 0.53,
+    "wall_reflectivity": 0.6,
+    "wall_patch_size": 1.0,
+    "time_step": 5e-10,
+    "symbol_period": 1e-08,
+    "max_reflections": 6,
+    "seed": 20261026
+  },
+  "model": "deterministic centre-element diffuse wall reflection; fractional-delay transport",
+  "patches": 200,
+  "time_bins": 718,
+  "max_wall_transfer_fraction": 0.4170761582483628,
+  "emitted_wall_power_by_order_W": [
+    [
+      21.891416015406183,
+      21.891416015406218,
+      21.89141601540618,
+      21.891416015406207
+    ],
+    [
+      5.66259320685076,
+      5.662593206850702,
+      5.662593206850757,
+      5.6625932068507225
+    ],
+    [
+      1.5735942155942335,
+      1.5735942155942346,
+      1.5735942155942344,
+      1.573594215594229
+    ],
+    [
+      0.45721162526557824,
+      0.45721162526557807,
+      0.4572116252655741,
+      0.4572116252655749
+    ],
+    [
+      0.13596197959963208,
+      0.13596197959963133,
+      0.1359619795996303,
+      0.1359619795996301
+    ],
+    [
+      0.04089755394379465,
+      0.04089755394379423,
+      0.04089755394379479,
+      0.04089755394379428
+    ]
+  ],
+  "units": "A at unit normalised modulation (P_LED and PD responsivity included)",
+  "normalization_reference_A": 9.451231212540497e-05,
+  "normalization_definition": "Euclidean norm of nominal Bob direct-path first tap; same scalar for all receivers, orders and trials",
+  "noise_axis": "20log10(alpha*g_ref/sigma_physical); equals normalized alpha/sigma, not asserted to be calibrated to original figure",
+  "seed": 20261026,
+  "reflection_surfaces": "four vertical walls only; floor/ceiling reflections omitted explicitly",
+  "not_paper_inputs": [
+    "fixture coordinates",
+    "LED pitch",
+    "half-power angle",
+    "FoV",
+    "index",
+    "responsivity",
+    "wall reflectivity",
+    "patch/time resolution",
+    "symbol duration",
+    "normalization",
+    "multiuser distribution",
+    "position uncertainty radius"
+  ]
+}

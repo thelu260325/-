@@ -1,0 +1,50 @@
+{
+  "runtime_seconds": 40.96488571166992,
+  "solver_records": 303,
+  "counterexample": {
+    "construction_rate": 0.7591582014575725,
+    "feasible_improvement_rate": 0.8155449307182132,
+    "global_rate": 0.8155449307182132,
+    "sum_of_per_tap_maxima": 8.0,
+    "max_of_receiver_sums": 5.0
+  },
+  "position_stress": {
+    "sample_size": 1000,
+    "eve_circle_radius_m": 0.25,
+    "bob_fixed": true,
+    "mean_rate": 2.5548619754929827,
+    "min_rate": 2.493665006806413,
+    "max_rate": 2.5723788389175914,
+    "standard_error": 0.0005777890269056723,
+    "designed_bound": 2.448142100818189,
+    "fraction_inside_epsilon_ball": 0.659
+  },
+  "mesh": {
+    "coarse_2m": [
+      3.0654721771429226e-05,
+      3.065472177142923e-05,
+      7.451390718288893e-05,
+      7.451390718288892e-05
+    ],
+    "main_1m": [
+      3.0143575144756473e-05,
+      3.014357514475647e-05,
+      7.388444675664116e-05,
+      7.388444675664115e-05
+    ],
+    "fine_0_5m": [
+      2.998210359442569e-05,
+      2.99821035944257e-05,
+      7.354630513824294e-05,
+      7.354630513824292e-05
+    ],
+    "relative_1m_vs_0_5m": 0.004718001012085946
+  },
+  "main_perfect_rate_20dB_pinf": 2.5791290137942404,
+  "main_robust_rate_20dB_pinf": 2.448142100818189,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "cvxpy": "1.9.3",
+  "scope": "Conditional independent reproduction of equation-level mechanisms and all five plot families; not exact data replay or original Algorithm1 implementation; unspecified parameters, normalized noise and different robust evaluation prevent claims of identical published curves."
+}

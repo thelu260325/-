@@ -1,0 +1,3 @@
+/workspace/assignment3/beamforming.py:244: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  problem.solve(solver='CLARABEL', warm_start=True,
+PASS: channel, beamforming and multiuser numerical checks. See results/verification.json.

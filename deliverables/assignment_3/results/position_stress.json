@@ -1,0 +1,11 @@
+{
+  "sample_size": 1000,
+  "eve_circle_radius_m": 0.25,
+  "bob_fixed": true,
+  "mean_rate": 2.5548619754929827,
+  "min_rate": 2.493665006806413,
+  "max_rate": 2.5723788389175914,
+  "standard_error": 0.0005777890269056723,
+  "designed_bound": 2.448142100818189,
+  "fraction_inside_epsilon_ball": 0.659
+}

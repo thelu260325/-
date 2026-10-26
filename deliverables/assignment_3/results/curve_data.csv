@@ -1,0 +1,304 @@
+S,conic_constraint_residual,constraint_residual,converged,dinkelbach_residual,eps_b,eps_e,figure,iterations,norm_violation,order,p,rate,residual,scheme,snr_db,status,users,vary
+,0.0,0.0,True,3.1836095204421177e-15,0,0,2,5,,,inf,2.5791290137942404,0.0,perfect,20,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,3,,,1,0.06295955886352106,0.0,Perfect CSI,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.9429068450094043e-16,0,0,3,3,,,1,0.0963163936770955,0.0,Perfect CSI,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,3,,,1,0.14477401275637516,0.0,Perfect CSI,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.6541709513600247e-16,0,0,3,3,,,1,0.2123705898688519,0.0,Perfect CSI,6.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.732857579148826e-14,0,0,3,3,,,1,0.3017387557377055,0.0,Perfect CSI,8.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.3343542993970224e-12,0,0,3,3,,,1,0.4122714489860959,0.0,Perfect CSI,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,5.101514399715152e-13,0,0,3,4,,,1,0.5401432145984097,0.0,Perfect CSI,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,5,,,1,0.692883221700555,0.0,Perfect CSI,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.734894528232168e-13,0,0,3,5,,,1,0.8748459377477104,0.0,Perfect CSI,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,5.347469879041693e-11,0,0,3,5,,,1,1.0864460631182447,0.0,Perfect CSI,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.7984073064875148e-09,0,0,3,5,,,1,1.326075606142317,0.0,Perfect CSI,20.0,global_dinkelbach_analytic,,
+,,,,,0,0,3,,,,1,0.03309773373726376,0.0,ZF,0.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.051775070069355576,0.0,ZF,2.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.08042034597523526,0.0,ZF,4.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.12361120502283775,0.0,ZF,6.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.18717080318197188,0.0,ZF,8.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.27767309358046033,0.0,ZF,10.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.4012583284964787,0.0,ZF,12.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.5619601984718434,0.0,ZF,14.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.7603236709441085,0.0,ZF,16.0,nominal_zf,,
+,,,,,0,0,3,,,,1,0.9932015704049655,0.0,ZF,18.0,nominal_zf,,
+,,,,,0,0,3,,,,1,1.2548747924760266,0.0,ZF,20.0,nominal_zf,,
+,4.6368731076995573e-10,0.0,True,4.097120443043568e-15,0,0.05,3,3,,,1,0.058119606926115105,0.0,Robust bound,0.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,1.9632896998530359e-16,0,0.05,3,3,,,1,0.08878822396942475,0.0,Robust bound,2.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,8.573762210805657e-12,0,0.05,3,3,,,1,0.13317560769619663,0.0,Robust bound,4.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,3.874645655052794e-12,0,0.05,3,3,,,1,0.1947421587173759,0.0,Robust bound,6.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,2.8791543882932858e-11,0,0.05,3,3,,,1,0.27544241884850906,0.0,Robust bound,8.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,3.024421592778107e-12,0,0.05,3,4,,,1,0.3740440668100611,0.0,Robust bound,10.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,6.339138613740336e-10,0,0.05,3,4,,,1,0.4933007022768746,0.0,Robust bound,12.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,4.931979709048978e-13,0,0.05,3,5,,,1,0.6392162523612578,0.0,Robust bound,14.0,global_dinkelbach_socp,,
+,5.426530336194446e-10,0.0,True,3.253039962904111e-11,0,0.05,3,5,,,1,0.8140216280928068,0.0,Robust bound,16.0,global_dinkelbach_socp,,
+,7.212421770930177e-10,0.0,True,8.784051296832648e-10,0,0.05,3,5,,,1,1.0185129439800276,0.0,Robust bound,18.0,global_dinkelbach_socp,,
+,4.6350889792989847e-10,0.0,True,5.6714356979586965e-14,0,0.05,3,6,,,1,1.2515626112332465,0.0,Robust bound,20.0,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.055846740657505924,0.0,LoS / one tap,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.08566345813993952,0.0,LoS / one tap,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.12924656485765293,0.0,LoS / one tap,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.1905476854911726,0.0,LoS / one tap,6.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.27243242442992943,0.0,LoS / one tap,8.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,2,,,1,0.37490368123786116,0.0,LoS / one tap,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,6.81347841471711e-14,0,0,3,4,,,1,0.4944501179170868,0.0,LoS / one tap,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,8.016003552539665e-09,0,0,3,4,,,1,0.6376377099353221,0.0,LoS / one tap,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.863603106926314e-13,0,0,3,5,,,1,0.8095035705657616,0.0,LoS / one tap,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,4.9148912417799517e-11,0,0,3,5,,,1,1.0110825959194305,0.0,LoS / one tap,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.0254102180826343e-09,0,0,3,5,,,1,1.2414689408035955,0.0,LoS / one tap,20.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.2484814733770216e-09,0,0,3,3,,,2,0.12203876782238837,0.0,Perfect CSI,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,4,,,2,0.18308718656361744,0.0,Perfect CSI,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.2393936893518784e-14,0,0,3,4,,,2,0.26860440183446127,0.0,Perfect CSI,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.5997558215623182e-12,0,0,3,4,,,2,0.3835372254839141,0.0,Perfect CSI,6.0,global_dinkelbach_analytic,,
+,0.0,2.220446049250313e-16,True,1.0322553086945874e-10,0,0,3,4,,,2,0.5312340348820149,2.220446049250313e-16,Perfect CSI,8.0,global_dinkelbach_analytic,,
+,0.0,2.220446049250313e-16,True,3.270422891433514e-09,0,0,3,4,,,2,0.7127613802106081,2.220446049250313e-16,Perfect CSI,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,5,,,2,0.9268093829388353,0.0,Perfect CSI,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,6.665486469275561e-15,0,0,3,5,,,2,1.1700693824678268,0.0,Perfect CSI,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.6444473273471686e-13,0,0,3,5,,,2,1.4378960878967662,0.0,Perfect CSI,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.5858693753912676e-12,0,0,3,5,,,2,1.7251164811446127,0.0,Perfect CSI,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,8.406443785421252e-12,0,0,3,5,,,2,2.0267947512236293,0.0,Perfect CSI,20.0,global_dinkelbach_analytic,,
+,,,,,0,0,3,,,,2,0.1029869459479597,0.0,ZF,0.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.15704383041615255,0.0,ZF,2.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.23519605352317344,0.0,ZF,4.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.3439576934637979,0.0,ZF,6.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.48847396064643306,0.0,ZF,8.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.6708925065567208,0.0,ZF,10.0,nominal_zf,,
+,,,,,0,0,3,,,,2,0.8895777558583573,0.0,ZF,12.0,nominal_zf,,
+,,,,,0,0,3,,,,2,1.1397148098023473,0.0,ZF,14.0,nominal_zf,,
+,,,,,0,0,3,,,,2,1.4148782083614448,0.0,ZF,16.0,nominal_zf,,
+,,,,,0,0,3,,,,2,1.7086204363005861,0.0,ZF,18.0,nominal_zf,,
+,,,,,0,0,3,,,,2,2.0154537443663183,0.0,ZF,20.0,nominal_zf,,
+,2.8890845271689614e-09,0.0,True,3.5683171743329614e-09,0,0.05,3,3,,,2,0.11523600480023345,0.0,Robust bound,0.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,1.1091778633934911e-13,0,0.05,3,4,,,2,0.17309364312519682,0.0,Robust bound,2.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,3.3562713526009286e-12,0,0.05,3,4,,,2,0.2543646864323348,0.0,Robust bound,4.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,8.192453376431395e-13,0,0.05,3,4,,,2,0.3639812209328708,0.0,Robust bound,6.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,2.1740516791880403e-10,0,0.05,3,4,,,2,0.5054680667563146,0.0,Robust bound,8.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,5.718981643871337e-09,0,0.05,3,4,,,2,0.6802673132128612,0.0,Robust bound,10.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,4.022113472723082e-15,0,0.05,3,5,,,2,0.8875819749298594,0.0,Robust bound,12.0,global_dinkelbach_socp_inaccurate,,
+,2.8910516203239922e-09,0.0,True,7.627528264245961e-13,0,0.05,3,5,,,2,1.124631732478666,0.0,Robust bound,14.0,global_dinkelbach_socp_inaccurate,,
+,2.8910516203239922e-09,0.0,True,2.64192345739789e-11,0,0.05,3,5,,,2,1.387173178950923,0.0,Robust bound,16.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,3.972236526889862e-12,0,0.05,3,4,,,2,1.6672046177716564,0.0,Robust bound,18.0,global_dinkelbach_socp,,
+,2.8910516203239922e-09,0.0,True,2.744400418532888e-10,0,0.05,3,4,,,2,1.9531043367751943,0.0,Robust bound,20.0,global_dinkelbach_socp,,
+,0.0,0.0,True,2.1323543617284443e-09,0,0,3,3,,,2,0.10890737535715218,0.0,LoS / one tap,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.7686953865102198e-16,0,0,3,4,,,2,0.16408195843470974,0.0,LoS / one tap,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,6.826326060070747e-15,0,0,3,4,,,2,0.24203842573657017,0.0,LoS / one tap,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,9.646856441766236e-13,0,0,3,4,,,2,0.3478755669408321,0.0,LoS / one tap,6.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,7.232156650350708e-11,0,0,3,4,,,2,0.485395792631589,0.0,LoS / one tap,8.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.6778511131251165e-09,0,0,3,4,,,2,0.6563422743709278,0.0,LoS / one tap,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,8.086343620979062e-16,0,0,3,5,,,2,0.8601622540713625,0.0,LoS / one tap,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,9.742656854245854e-15,0,0,3,5,,,2,1.0942311797441409,0.0,LoS / one tap,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.775584584511156e-13,0,0,3,5,,,2,1.3543735315554712,0.0,LoS / one tap,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.1680355950325754e-12,0,0,3,5,,,2,1.635589272816959,0.0,LoS / one tap,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.9001934405006793e-11,0,0,3,5,,,2,1.9328425066036756,0.0,LoS / one tap,20.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.240216811103731e-16,0,0,3,4,,,inf,0.22737958374162365,0.0,Perfect CSI,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,5.4043303734804244e-14,0,0,3,4,,,inf,0.3307960464461181,0.0,Perfect CSI,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.7854643021046732e-12,0,0,3,4,,,inf,0.4677726248747453,0.0,Perfect CSI,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,7.133811554981412e-11,0,0,3,4,,,inf,0.6408695407259394,0.0,Perfect CSI,6.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,9.383222406941275e-10,0,0,3,4,,,inf,0.8495092932029341,0.0,Perfect CSI,8.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,6.9333690797180245e-09,0,0,3,4,,,inf,1.0901345230912582,0.0,Perfect CSI,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,3,5,,,inf,1.3572409130903949,0.0,Perfect CSI,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.8167669473667279e-16,0,0,3,5,,,inf,1.644738076952554,0.0,Perfect CSI,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,5.973990918601568e-16,0,0,3,5,,,inf,1.9470412842781915,0.0,Perfect CSI,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.2394217766824303e-15,0,0,3,5,,,inf,2.2596271007325237,0.0,Perfect CSI,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.1836095204421177e-15,0,0,3,5,,,inf,2.5791290137942404,0.0,Perfect CSI,20.0,global_dinkelbach_analytic,,
+,,,,,0,0,3,,,,inf,0.21446028311625043,0.0,ZF,0.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,0.31554335839617675,0.0,ZF,2.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,0.45139578313164674,0.0,ZF,4.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,0.6249806144936219,0.0,ZF,6.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,0.835542050059878,0.0,ZF,8.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,1.0788871994383757,0.0,ZF,10.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,1.3488103495585704,0.0,ZF,12.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,1.6387545526174379,0.0,ZF,14.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,1.9429581346216744,0.0,ZF,16.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,2.2569152763621956,0.0,ZF,18.0,nominal_zf,,
+,,,,,0,0,3,,,,inf,2.577360345449463,0.0,ZF,20.0,nominal_zf,,
+,5.992220053485653e-10,0.0,True,1.8222221184160116e-14,0,0.05,3,4,,,inf,0.21785518433526257,0.0,Robust bound,0.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,5.447740720085341e-12,0,0.05,3,4,,,inf,0.3177941018063947,0.0,Robust bound,2.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,6.27030460844359e-12,0,0.05,3,4,,,inf,0.4507972381855091,0.0,Robust bound,4.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,8.518544129494781e-11,0,0.05,3,4,,,inf,0.6197303273994282,0.0,Robust bound,6.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,1.157688114724469e-09,0,0.05,3,4,,,inf,0.8243847235575482,0.0,Robust bound,8.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,5.31984334495345e-13,0,0.05,3,4,,,inf,1.061481349741024,0.0,Robust bound,10.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,3.961149074727517e-11,0,0.05,3,3,,,inf,1.3233033112158032,0.0,Robust bound,12.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,1.239125084945787e-10,0,0.05,3,3,,,inf,1.6008830464001431,0.0,Robust bound,14.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,1.663450482269609e-10,0,0.05,3,3,,,inf,1.8861298827794273,0.0,Robust bound,16.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,1.6071829233049542e-10,0,0.05,3,3,,,inf,2.171175075236619,0.0,Robust bound,18.0,global_dinkelbach_socp,,
+,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,3,3,,,inf,2.448142100818189,0.0,Robust bound,20.0,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0,0,3,4,,,inf,0.20451348780991027,0.0,LoS / one tap,0.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,3.357599801029302e-14,0,0,3,4,,,inf,0.2993834168386881,0.0,LoS / one tap,2.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,2.0642925450724594e-12,0,0,3,4,,,inf,0.4264880752345749,0.0,LoS / one tap,4.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,6.27577132403682e-11,0,0,3,4,,,inf,0.5891313810094363,0.0,LoS / one tap,6.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,9.674747402691337e-10,0,0,3,4,,,inf,0.7876708173688544,0.0,LoS / one tap,8.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,8.182092931087395e-09,0,0,3,4,,,inf,1.019381023000788,0.0,LoS / one tap,10.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,4.523132019188242e-16,0,0,3,5,,,inf,1.2792449567933455,0.0,LoS / one tap,12.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,4.0793305458205355e-16,0,0,3,5,,,inf,1.5612585527885197,0.0,LoS / one tap,14.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,9.440973878759042e-16,0,0,3,5,,,inf,1.859634376267031,0.0,LoS / one tap,16.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,4.037442281911327e-15,0,0,3,5,,,inf,2.169520871878956,0.0,LoS / one tap,18.0,global_dinkelbach_analytic,,
+,0.0,0.0,True,1.0622629148533335e-14,0,0,3,5,,,inf,2.487220648122805,0.0,LoS / one tap,20.0,global_dinkelbach_analytic,,
+,,,,,,,4,,2.220446049250313e-16,,1,1.3260756061423067,3.2031388652598025e-09,published sum-of-maxima,,global_model_to_solver_tolerance,1,Bob
+,,,,,,,4,,0.0,,1,1.8837125378969208,1.368211766106242e-09,published sum-of-maxima,,global_model_to_solver_tolerance,2,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.111918332839281,2.278314426007455e-09,published sum-of-maxima,,global_model_to_solver_tolerance,3,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.1119390284043495,2.102991558672329e-09,published sum-of-maxima,,global_model_to_solver_tolerance,4,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.111939681855839,2.0598074357280893e-09,published sum-of-maxima,,global_model_to_solver_tolerance,5,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.1119396818154605,2.0615669171775153e-09,published sum-of-maxima,,global_model_to_solver_tolerance,6,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.126695897050102,2.0517187948598803e-09,published sum-of-maxima,,global_model_to_solver_tolerance,7,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.1266958970519076,2.0551160773152333e-09,published sum-of-maxima,,global_model_to_solver_tolerance,8,Bob
+,,,,,,,4,,0.0,,1,2.1267918635466048,2.0503705400187755e-09,published sum-of-maxima,,global_model_to_solver_tolerance,9,Bob
+,,,,,,,4,,2.220446049250313e-16,,1,2.1267959891780706,2.047492841938947e-09,published sum-of-maxima,,global_model_to_solver_tolerance,10,Bob
+,,,,,,,4,,0.0,,1,1.326075606142307,3.2031386432151976e-09,published sum-of-maxima,,global_model_to_solver_tolerance,1,Eve
+,,,,,,,4,,2.220446049250313e-16,,1,1.3260756056952598,3.231440892648152e-09,published sum-of-maxima,,global_model_to_solver_tolerance,2,Eve
+,,,,,,,4,,0.0,,1,1.3258368078814853,3.453642927198075e-09,published sum-of-maxima,,global_model_to_solver_tolerance,3,Eve
+,,,,,,,4,,0.0,,1,1.3232778178591602,3.7491227899977275e-09,published sum-of-maxima,,global_model_to_solver_tolerance,4,Eve
+,,,,,,,4,,0.0,,1,1.3220986485053434,3.94523413937975e-09,published sum-of-maxima,,global_model_to_solver_tolerance,5,Eve
+,,,,,,,4,,0.0,,1,1.3220895488335846,3.9259084871900995e-09,published sum-of-maxima,,global_model_to_solver_tolerance,6,Eve
+,,,,,,,4,,0.0,,1,1.3054188023395155,5.777237355175657e-09,published sum-of-maxima,,global_model_to_solver_tolerance,7,Eve
+,,,,,,,4,,0.0,,1,1.2980900651778498,9.308664949969625e-11,published sum-of-maxima,,global_model_to_solver_tolerance,8,Eve
+,,,,,,,4,,2.220446049250313e-16,,1,1.298070738763425,2.2776380781408534e-10,published sum-of-maxima,,global_model_to_solver_tolerance,9,Eve
+,,,,,,,4,,0.0,,1,1.2731145458829705,2.5159874184055298e-12,published sum-of-maxima,,global_model_to_solver_tolerance,10,Eve
+,,,,,,,4,,2.220446049250313e-16,,2,2.026794751223624,3.633182643625332e-11,published sum-of-maxima,,global_model_to_solver_tolerance,1,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.2832867229304528,7.586166743678291e-07,published sum-of-maxima,,global_model_to_solver_tolerance,2,Bob
+,,,,,,,4,,0.0,,2,2.445555658238574,2.2017007079710993e-06,published sum-of-maxima,,global_model_to_solver_tolerance,3,Bob
+,,,,,,,4,,0.0,,2,2.44559098267407,2.6696154007410655e-06,published sum-of-maxima,,global_model_to_solver_tolerance,4,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.4455909826741173,2.6696078165855397e-06,published sum-of-maxima,,global_model_to_solver_tolerance,5,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.445590982674117,2.6696139547865982e-06,published sum-of-maxima,,global_model_to_solver_tolerance,6,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.4582425167155235,2.4900748067935297e-06,published sum-of-maxima,,global_model_to_solver_tolerance,7,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.458242516715524,2.49007429520276e-06,published sum-of-maxima,,global_model_to_solver_tolerance,8,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.45828125203022,2.945306432522443e-06,published sum-of-maxima,,global_model_to_solver_tolerance,9,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.458284908399207,2.9459768908779438e-06,published sum-of-maxima,,global_model_to_solver_tolerance,10,Bob
+,,,,,,,4,,2.220446049250313e-16,,2,2.026794751223624,3.633182643625332e-11,published sum-of-maxima,,global_model_to_solver_tolerance,1,Eve
+,,,,,,,4,,2.220446049250313e-16,,2,2.025423146752116,2.923883357652812e-11,published sum-of-maxima,,global_model_to_solver_tolerance,2,Eve
+,,,,,,,4,,2.220446049250313e-16,,2,1.9825468108635687,1.3872902826506106e-10,published sum-of-maxima,,global_model_to_solver_tolerance,3,Eve
+,,,,,,,4,,0.0,,2,1.9810972807939378,1.723954312637943e-12,published sum-of-maxima,,global_model_to_solver_tolerance,4,Eve
+,,,,,,,4,,0.0,,2,1.9765322014525373,1.2143101901784803e-07,published sum-of-maxima,,global_model_to_solver_tolerance,5,Eve
+,,,,,,,4,,0.0,,2,1.9764268042483133,1.2167295615483908e-07,published sum-of-maxima,,global_model_to_solver_tolerance,6,Eve
+,,,,,,,4,,0.0,,2,1.954094510806843,2.3063705123504974e-06,published sum-of-maxima,,global_model_to_solver_tolerance,7,Eve
+,,,,,,,4,,0.0,,2,1.8325151247439684,7.406519841879344e-12,published sum-of-maxima,,global_model_to_solver_tolerance,8,Eve
+,,,,,,,4,,0.0,,2,1.832478972927836,-4.085620730620576e-12,published sum-of-maxima,,global_model_to_solver_tolerance,9,Eve
+,,,,,,,4,,0.0,,2,1.7482862739976122,8.819611707622244e-13,published sum-of-maxima,,global_model_to_solver_tolerance,10,Eve
+,,,,,,,4,,0.0,,inf,2.5791290137942307,3.552713678800501e-14,published sum-of-maxima,,global_model_to_solver_tolerance,1,Bob
+,,,,,,,4,,0.0,,inf,2.8338689901140826,1.6141678393921666e-07,published sum-of-maxima,,global_model_to_solver_tolerance,2,Bob
+,,,,,,,4,,0.0,,inf,2.8957112179838087,8.156745725074188e-06,published sum-of-maxima,,global_model_to_solver_tolerance,3,Bob
+,,,,,,,4,,0.0,,inf,2.895772055561162,1.3579721594325633e-05,published sum-of-maxima,,global_model_to_solver_tolerance,4,Bob
+,,,,,,,4,,0.0,,inf,2.895772447158238,1.3581432114051495e-05,published sum-of-maxima,,global_model_to_solver_tolerance,5,Bob
+,,,,,,,4,,0.0,,inf,2.895772447118491,1.3580360365139654e-05,published sum-of-maxima,,global_model_to_solver_tolerance,6,Bob
+,,,,,,,4,,0.0,,inf,2.906651092357344,1.2452261444195756e-12,published sum-of-maxima,,global_model_to_solver_tolerance,7,Bob
+,,,,,,,4,,0.0,,inf,2.906651092154734,-2.9967139880682225e-12,published sum-of-maxima,,global_model_to_solver_tolerance,8,Bob
+,,,,,,,4,,0.0,,inf,2.9090248186594856,-8.29558643999917e-13,published sum-of-maxima,,global_model_to_solver_tolerance,9,Bob
+,,,,,,,4,,0.0,,inf,2.9090248186799266,4.176214929429989e-12,published sum-of-maxima,,global_model_to_solver_tolerance,10,Bob
+,,,,,,,4,,0.0,,inf,2.5791290137942307,3.375077994860476e-14,published sum-of-maxima,,global_model_to_solver_tolerance,1,Eve
+,,,,,,,4,,0.0,,inf,2.5779754719523993,-1.0658141036401503e-14,published sum-of-maxima,,global_model_to_solver_tolerance,2,Eve
+,,,,,,,4,,0.0,,inf,2.5211167367868845,3.7257701990256464e-06,published sum-of-maxima,,global_model_to_solver_tolerance,3,Eve
+,,,,,,,4,,0.0,,inf,2.4988413975227273,5.49800313009996e-06,published sum-of-maxima,,global_model_to_solver_tolerance,4,Eve
+,,,,,,,4,,0.0,,inf,2.4389777506712034,-1.1013412404281553e-13,published sum-of-maxima,,global_model_to_solver_tolerance,5,Eve
+,,,,,,,4,,0.0,,inf,2.438691042297644,1.4406253967536031e-12,published sum-of-maxima,,global_model_to_solver_tolerance,6,Eve
+,,,,,,,4,,0.0,,inf,2.4042322980649513,-6.131983809609665e-12,published sum-of-maxima,,global_model_to_solver_tolerance,7,Eve
+,,,,,,,4,,0.0,,inf,2.1635761970105922,-1.7505996652289468e-11,published sum-of-maxima,,global_model_to_solver_tolerance,8,Eve
+,,,,,,,4,,0.0,,inf,2.163470284055526,-4.176214929429989e-11,published sum-of-maxima,,global_model_to_solver_tolerance,9,Eve
+,,,,,,,4,,0.0,,inf,2.0254670301211695,5.232259070453438e-11,published sum-of-maxima,,global_model_to_solver_tolerance,10,Eve
+,0.0,0.0,True,3.1836095204421177e-15,0,0.0,5,5,,,inf,2.5791290137942404,0.0,Multipath,20,global_dinkelbach_analytic,,
+,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,5,3,,,inf,2.448142100818189,0.0,Multipath,20,global_dinkelbach_socp,,
+,7.404943325184377e-11,0.0,True,1.0040341123979457e-09,0,0.1,5,3,,,inf,2.167960641780882,0.0,Multipath,20,global_dinkelbach_socp,,
+,3.4852121189032914e-10,0.0,True,4.5451197262582807e-11,0,0.15000000000000002,5,3,,,inf,1.858161448744772,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.091091909685929e-10,0.0,True,4.4191425104320507e-10,0,0.2,5,3,,,inf,1.5710830375908993,0.0,Multipath,20,global_dinkelbach_socp,,
+,5.928593171944385e-10,0.0,True,7.789105501024271e-09,0,0.25,5,2,,,inf,1.3170576856267942,0.0,Multipath,20,global_dinkelbach_socp,,
+,2.8041391431088414e-10,0.0,True,1.026996465036268e-09,0,0.30000000000000004,5,2,,,inf,1.093776097431663,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.6135603964073653e-10,0.0,True,3.978878119677835e-11,0,0.35000000000000003,5,2,,,inf,0.8964569003477062,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.231304195911889e-10,0.0,True,2.3530917203201416e-10,0,0.4,5,2,,,inf,0.7205644741854905,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.604361336646434e-11,0.0,True,9.81000907150611e-10,0,0.45,5,2,,,inf,0.5623540539350371,0.0,Multipath,20,global_dinkelbach_socp,,
+,3.8859626627640864e-10,0.0,True,3.836914300057867e-11,0,0.5,5,2,,,inf,0.41884859720085216,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,1.0622629148533335e-14,0,0.0,5,5,,,inf,2.487220648122805,0.0,LoS,20,global_dinkelbach_analytic,,
+,1.6315437889602435e-10,0.0,True,1.5424808765841276e-10,0,0.05,5,3,,,inf,2.359496360175789,0.0,LoS,20,global_dinkelbach_socp,,
+,6.493910964522343e-11,0.0,True,4.4393333665300776e-10,0,0.1,5,3,,,inf,2.077108242886424,0.0,LoS,20,global_dinkelbach_socp,,
+,5.932772051409074e-10,0.0,True,1.3728520787184985e-09,0,0.15000000000000002,5,3,,,inf,1.7656901180167395,0.0,LoS,20,global_dinkelbach_socp,,
+,6.706732946781813e-10,0.0,True,9.472534938162553e-10,0,0.2,5,3,,,inf,1.4776226634330156,0.0,LoS,20,global_dinkelbach_socp,,
+,2.937685650294952e-10,0.0,True,1.218840626927494e-09,0,0.25,5,2,,,inf,1.2229973761650585,0.0,LoS,20,global_dinkelbach_socp,,
+,2.8895463799472054e-10,0.0,True,1.5862902593367694e-10,0,0.30000000000000004,5,2,,,inf,0.999337699560871,0.0,LoS,20,global_dinkelbach_socp,,
+,3.226663380928585e-11,0.0,True,7.995010085074986e-11,0,0.35000000000000003,5,2,,,inf,0.8017691991813521,0.0,LoS,20,global_dinkelbach_socp,,
+,2.709077406848337e-10,0.0,True,1.3198194371532417e-09,0,0.4,5,2,,,inf,0.6257053561085966,0.0,LoS,20,global_dinkelbach_socp,,
+,2.4560349309865614e-09,0.0,True,1.5772581062968334e-09,0,0.45,5,2,,,inf,0.46737270723215446,0.0,LoS,20,global_dinkelbach_socp,,
+,4.855991164731677e-10,0.0,True,2.2271409601153874e-10,0,0.5,5,2,,,inf,0.3237773500752792,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,1.9831439438412618e-13,0.2,0.0,5,5,,,inf,2.181091381380525,0.0,Multipath,20,global_dinkelbach_socp,,
+,3.2671021443775317e-10,0.0,True,1.865650937292796e-10,0.2,0.05,5,3,,,inf,2.0526061874665884,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.820464583055184e-10,0.0,True,8.256605274615593e-11,0.2,0.1,5,3,,,inf,1.772424728326194,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.534017605806184e-11,0.0,True,2.4657400686364836e-11,0.2,0.15000000000000002,5,3,,,inf,1.4626255353888773,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.0573941722213931e-10,0.0,True,1.1350053824591528e-13,0.2,0.2,5,3,,,inf,1.1755471243196973,0.0,Multipath,20,global_dinkelbach_socp,,
+,8.406138007899244e-10,0.0,True,6.526288742357818e-09,0.2,0.25,5,2,,,inf,0.9215217723932646,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.3478747007411584e-09,0.0,True,3.2788414605377908e-09,0.2,0.30000000000000004,5,2,,,inf,0.6982401832454752,0.0,Multipath,20,global_dinkelbach_socp,,
+,2.2613999561826859e-10,0.0,True,9.668304298907384e-11,0.2,0.35000000000000003,5,2,,,inf,0.5009209869782775,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.609832267490674e-10,0.0,True,1.1789106790770612e-10,0.2,0.4,5,2,,,inf,0.32502856090804083,0.0,Multipath,20,global_dinkelbach_socp,,
+,2.8681235164640384e-10,0.0,True,1.340298139604149e-10,0.2,0.45,5,2,,,inf,0.1668181405538538,0.0,Multipath,20,global_dinkelbach_socp,,
+,3.059850151032606e-10,0.0,True,6.125130309646931e-11,0.2,0.5,5,2,,,inf,0.023312683882993974,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,8.492683939444763e-12,0.2,0.0,5,5,,,inf,2.0649972331096897,0.0,LoS,20,global_dinkelbach_socp_inaccurate,,
+,8.659117867182431e-11,0.0,True,3.1037347631499684e-10,0.2,0.05,5,3,,,inf,1.9339515922013566,0.0,LoS,20,global_dinkelbach_socp,,
+,4.1752751256396436e-10,0.0,True,6.151842075781547e-11,0.2,0.1,5,3,,,inf,1.6515634748125316,0.0,LoS,20,global_dinkelbach_socp_inaccurate,,
+,8.717915278566579e-10,0.0,True,6.13774704911431e-11,0.2,0.15000000000000002,5,3,,,inf,1.3401453496042908,0.0,LoS,20,global_dinkelbach_socp,,
+,2.055910997000865e-11,0.0,True,1.2050605212773524e-09,0.2,0.2,5,2,,,inf,1.0520778954998475,0.0,LoS,20,global_dinkelbach_socp,,
+,8.179545929465348e-10,0.0,True,6.213223154624402e-10,0.2,0.25,5,2,,,inf,0.7974526083706294,0.0,LoS,20,global_dinkelbach_socp,,
+,4.462110680947262e-10,0.0,True,3.0641183940028594e-09,0.2,0.30000000000000004,5,2,,,inf,0.5737929314923504,0.0,LoS,20,global_dinkelbach_socp,,
+,2.889071204492666e-10,0.0,True,4.912976700173992e-11,0.2,0.35000000000000003,5,2,,,inf,0.37622443119451915,0.0,LoS,20,global_dinkelbach_socp,,
+,1.755853684670683e-09,0.0,True,1.3427013970489612e-09,0.2,0.4,5,2,,,inf,0.2001605882000492,0.0,LoS,20,global_dinkelbach_socp,,
+,1.0256537841257796e-09,0.0,True,3.5705828983898773e-10,0.2,0.45,5,2,,,inf,0.04182793937209682,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.2,0.5,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,3.1851863260583174e-12,0.4,0.0,5,5,,,inf,1.6530762121155111,0.0,Multipath,20,global_dinkelbach_socp_inaccurate,,
+,2.0539125955565396e-10,0.0,True,7.134294658521316e-10,0.4,0.05,5,3,,,inf,1.5176153034262816,0.0,Multipath,20,global_dinkelbach_socp,,
+,2.92939894563915e-10,0.0,True,8.911251853900056e-10,0.4,0.1,5,3,,,inf,1.237433844342823,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.9094992254053977e-10,0.0,True,5.526576082885781e-10,0.4,0.15000000000000002,5,3,,,inf,0.9276346513656089,0.0,Multipath,20,global_dinkelbach_socp_inaccurate,,
+,4.412727960811935e-10,0.0,True,3.599686211588598e-10,0.4,0.2,5,2,,,inf,0.6405562399183128,0.0,Multipath,20,global_dinkelbach_socp,,
+,4.6283066268415496e-10,0.0,True,5.215138009570148e-10,0.4,0.25,5,2,,,inf,0.3865308888936702,0.0,Multipath,20,global_dinkelbach_socp,,
+,1.9777868232040419e-10,0.0,True,6.699198368912738e-11,0.4,0.30000000000000004,5,2,,,inf,0.16324930017576125,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.35000000000000003,5,1,,,inf,0.0,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.4,5,1,,,inf,0.0,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.45,5,1,,,inf,0.0,0.0,Multipath,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.5,5,1,,,inf,0.0,0.0,Multipath,20,global_dinkelbach_socp,,
+,9.665512834544643e-11,0.0,True,1.1541177067985747e-12,0.4,0.0,5,5,,,inf,1.4861726957036137,0.0,LoS,20,global_dinkelbach_socp_inaccurate,,
+,2.603961490876827e-11,0.0,True,6.567963927357449e-12,0.4,0.05,5,3,,,inf,1.34516493844874,0.0,LoS,20,global_dinkelbach_socp,,
+,8.635581139060378e-11,0.0,True,3.5026127137892167e-10,0.4,0.1,5,3,,,inf,1.06277682107517,0.0,LoS,20,global_dinkelbach_socp,,
+,2.486424399705811e-10,0.0,True,5.776470264497543e-13,0.4,0.15000000000000002,5,3,,,inf,0.7513586959220719,0.0,LoS,20,global_dinkelbach_socp,,
+,8.993970013193575e-10,0.0,True,2.769032967689458e-09,0.4,0.2,5,2,,,inf,0.46329124087560314,0.0,LoS,20,global_dinkelbach_socp,,
+,9.263509959112071e-10,0.0,True,3.416308723965809e-11,0.4,0.25,5,2,,,inf,0.20866595451244443,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.30000000000000004,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.35000000000000003,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.4,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.45,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+,0.0,0.0,True,0.0,0.4,0.5,5,1,,,inf,0.0,0.0,LoS,20,global_dinkelbach_socp,,
+50,0.0,0.0,True,3.583464043483355e-15,0,0,6,5,,1,inf,2.578745773091117,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,0.0,0.0,True,3.3824504031540575e-15,0,0,6,5,,2,inf,2.579157742215442,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,0.0,0.0,True,2.984594246169341e-15,0,0,6,5,,3,inf,2.5791386038197093,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,0.0,0.0,True,3.1836095204421177e-15,0,0,6,5,,4,inf,2.5791290137942404,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,0.0,0.0,True,2.9846420043190647e-15,0,0,6,5,,5,inf,2.5791270612298574,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,0.0,0.0,True,3.1836196374674294e-15,0,0,6,5,,6,inf,2.5791267214655234,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,1,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,2,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,3,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,4,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,5,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+1,0.0,0.0,True,3.4059926489773107e-15,0,0,6,5,,6,inf,2.574154471627037,0.0,Perfect,20,global_dinkelbach_analytic,,
+50,,,,,0,0,6,,,1,inf,2.5769781679728485,0.0,ZF,20,nominal_zf,,
+50,,,,,0,0,6,,,2,inf,2.5773894971307905,0.0,ZF,20,nominal_zf,,
+50,,,,,0,0,6,,,3,inf,2.5773700208681665,0.0,ZF,20,nominal_zf,,
+50,,,,,0,0,6,,,4,inf,2.577360345449463,0.0,ZF,20,nominal_zf,,
+50,,,,,0,0,6,,,5,inf,2.577358378005702,0.0,ZF,20,nominal_zf,,
+50,,,,,0,0,6,,,6,inf,2.577358036425218,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,1,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,2,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,3,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,4,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,5,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+1,,,,,0,0,6,,,6,inf,2.5723788546200015,0.0,ZF,20,nominal_zf,,
+50,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,1,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+50,1.6805139502196198e-09,0.0,True,1.5477542583166814e-10,0,0.05,6,3,,2,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+50,5.936620084412425e-10,0.0,True,1.5471673140038418e-10,0,0.05,6,3,,3,inf,2.4481421008181896,0.0,Robust,20,global_dinkelbach_socp,,
+50,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,6,3,,4,inf,2.448142100818189,0.0,Robust,20,global_dinkelbach_socp,,
+50,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,6,3,,5,inf,2.448142100818189,0.0,Robust,20,global_dinkelbach_socp,,
+50,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,6,3,,6,inf,2.448142100818189,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,1,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,2,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,3,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,4,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,5,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+1,1.6625190113472854e-10,0.0,True,1.156685908219268e-10,0,0.05,6,3,,6,inf,2.44814210081819,0.0,Robust,20,global_dinkelbach_socp,,
+DC,0.0,0.0,True,6.563156164283359e-14,0,0,6,5,,1,inf,2.654151702795948,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+DC,0.0,0.0,True,1.6143969664672604e-13,0,0,6,5,,2,inf,2.671346402650909,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+DC,0.0,0.0,True,2.0344560807893558e-13,0,0,6,5,,3,inf,2.675740655887668,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+DC,0.0,0.0,True,2.170290293016855e-13,0,0,6,5,,4,inf,2.676867484005292,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+DC,0.0,0.0,True,2.214477400090084e-13,0,0,6,5,,5,inf,2.677190245723714,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+DC,0.0,0.0,True,2.2280847136483594e-13,0,0,6,5,,6,inf,2.677283301214977,0.0,"ISI-free DC, all energy",20,global_dinkelbach_analytic,,
+,0.0,0.0,True,0.0,0,0,audit,3,,,inf,0.8155449307182132,0.0,counterexample,0,global_dinkelbach_analytic,,
+,5.996043661582462e-10,0.0,True,1.547260366151e-10,0,0.05,stress,3,,,inf,2.448142100818189,0.0,1000-position test,20,global_dinkelbach_socp,,

@@ -1,0 +1,702 @@
+[
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_inf",
+    "x": "10",
+    "y": "0.73",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_inf",
+    "x": "20",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_inf",
+    "x": "10",
+    "y": "0.69",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_inf",
+    "x": "20",
+    "y": "2.54",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_inf",
+    "x": "10",
+    "y": "0.65",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_inf",
+    "x": "20",
+    "y": "2.37",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_inf",
+    "x": "10",
+    "y": "0.61",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_inf",
+    "x": "20",
+    "y": "2.25",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_2",
+    "x": "10",
+    "y": "0.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_2",
+    "x": "20",
+    "y": "1.88",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_2",
+    "x": "10",
+    "y": "0.52",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_2",
+    "x": "20",
+    "y": "1.8",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_2",
+    "x": "10",
+    "y": "0.47",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_2",
+    "x": "20",
+    "y": "1.65",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_2",
+    "x": "10",
+    "y": "0.45",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_2",
+    "x": "20",
+    "y": "1.59",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_1",
+    "x": "10",
+    "y": "0.42",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_with_ISI_NLoS_p_1",
+    "x": "20",
+    "y": "1.43",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_1",
+    "x": "10",
+    "y": "0.37",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "ZF_with_ISI_NLoS_p_1",
+    "x": "20",
+    "y": "1.32",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_1",
+    "x": "10",
+    "y": "0.33",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "robust_with_ISI_NLoS_p_1",
+    "x": "20",
+    "y": "1.17",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_1",
+    "x": "10",
+    "y": "0.29",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 3",
+    "series": "optimal_without_ISI_NLoS_p_1",
+    "x": "20",
+    "y": "1.1",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "optimal_perfect_CSI_upper_bound",
+    "x": "0",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "optimal_perfect_CSI_upper_bound",
+    "x": "0.05",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "optimal_perfect_CSI_upper_bound",
+    "x": "0.25",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "optimal_perfect_CSI_upper_bound",
+    "x": "0.5",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0",
+    "x": "0",
+    "y": "2.58",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0",
+    "x": "0.05",
+    "y": "2.27",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0",
+    "x": "0.25",
+    "y": "1.37",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0",
+    "x": "0.5",
+    "y": "0.96",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0",
+    "x": "0",
+    "y": "2.53",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0",
+    "x": "0.05",
+    "y": "2.16",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0",
+    "x": "0.25",
+    "y": "1.26",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0",
+    "x": "0.5",
+    "y": "0.77",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0",
+    "x": "0",
+    "y": "2.25",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0",
+    "x": "0.05",
+    "y": "2.01",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0",
+    "x": "0.25",
+    "y": "1.17",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0",
+    "x": "0.5",
+    "y": "0.59",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.2",
+    "x": "0",
+    "y": "1.71",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.05",
+    "y": "1.56",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.25",
+    "y": "0.9",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.5",
+    "y": "0.39",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.2",
+    "x": "0",
+    "y": "1.63",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.05",
+    "y": "1.47",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.25",
+    "y": "0.83",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.2",
+    "x": "0.5",
+    "y": "0.29",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.2",
+    "x": "0",
+    "y": "1.56",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.2",
+    "x": "0.05",
+    "y": "1.37",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.2",
+    "x": "0.25",
+    "y": "0.68",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.2",
+    "x": "0.5",
+    "y": "0.26",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.4",
+    "x": "0",
+    "y": "1.24",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.05",
+    "y": "1.05",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.25",
+    "y": "0.5",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.5",
+    "y": "0.16",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.4",
+    "x": "0",
+    "y": "1.19",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.05",
+    "y": "1.01",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.25",
+    "y": "0.43",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "ZF_with_ISI_NLoS_eps_B_0.4",
+    "x": "0.5",
+    "y": "0.1",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.4",
+    "x": "0",
+    "y": "1.12",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.4",
+    "x": "0.05",
+    "y": "0.94",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.4",
+    "x": "0.25",
+    "y": "0.38",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 5",
+    "series": "robust_without_ISI_NLoS_eps_B_0.4",
+    "x": "0.5",
+    "y": "0.04",
+    "estimatedreadingerror": "0.03"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "1",
+    "y": "2.333",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "2",
+    "y": "2.494",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "3",
+    "y": "2.566",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "4",
+    "y": "2.578",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "5",
+    "y": "2.579",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_50_with_ISI",
+    "x": "6",
+    "y": "2.579",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "1",
+    "y": "2.324",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "2",
+    "y": "2.485",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "3",
+    "y": "2.557",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "4",
+    "y": "2.569",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "5",
+    "y": "2.57",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "optimal_S_1_without_ISI",
+    "x": "6",
+    "y": "2.57",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "1",
+    "y": "2.28",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "2",
+    "y": "2.463",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "3",
+    "y": "2.523",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "4",
+    "y": "2.551",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "5",
+    "y": "2.55",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_50_with_ISI",
+    "x": "6",
+    "y": "2.55",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "1",
+    "y": "2.27",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "2",
+    "y": "2.454",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "3",
+    "y": "2.515",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "4",
+    "y": "2.541",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "5",
+    "y": "2.54",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "ZF_S_1_without_ISI",
+    "x": "6",
+    "y": "2.54",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "1",
+    "y": "2.04",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "2",
+    "y": "2.181",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "3",
+    "y": "2.249",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "4",
+    "y": "2.274",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "5",
+    "y": "2.274",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_50_with_ISI",
+    "x": "6",
+    "y": "2.274",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "1",
+    "y": "2.032",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "2",
+    "y": "2.172",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "3",
+    "y": "2.241",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "4",
+    "y": "2.265",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "5",
+    "y": "2.265",
+    "estimatedreadingerror": "0.01"
+  },
+  {
+    "originalfig": "Figure 6",
+    "series": "robust_S_1_without_ISI",
+    "x": "6",
+    "y": "2.266",
+    "estimatedreadingerror": "0.01"
+  }
+]
