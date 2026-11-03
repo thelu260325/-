@@ -1,17 +1,13 @@
 # 集成语音感知与云平台的多任务智能楼宇控制系统
 
-2026年11月3日依据新技术文档与钱图、陆子芃、孙建庚实际分工修订。应用背景为智能楼宇单房间教学场景，正文沿用课程指导书的14章结构。
+普通课程大作业版，按课程指导书14章结构编写，包含总体设计、电路、数据处理、FreeRTOS软件组织、OLED/云端/语音功能分析及钱图、陆子芃、孙建庚的实际分工。
 
-- [下载Word修订稿](Smart_Building_Course_Paper.docx?raw=true)
-- [查看PDF（21页）](Smart_Building_Course_Paper.pdf)
-- [下载论文、图源及补充清单材料包](Smart_Building_Paper_Package.zip?raw=true)
-- [查看尚需补充与核验的信息](Remaining_Information.md)
-- [查看技术文档所附原理图原图](System_Schematic_From_Technical_Document.png)
+- [下载Word课程报告](Smart_Building_Course_Paper.docx?raw=true)
+- [查看PDF（19页）](Smart_Building_Course_Paper.pdf)
+- [下载报告与图源材料包](Smart_Building_Paper_Package.zip?raw=true)
+- [提交前简单填写事项](Remaining_Information.md)
+- [原技术文档所附原理图](System_Schematic_From_Technical_Document.png)
 
-已纳入DHT11、MQ-2、GL5516、OLED、ESP8266、SU-03T的文档接线，三人实际职责及模块接口流程。钱图与陆子芃共同负责OLED菜单相关工作，报告保留共同分工。
+本版删去了反复的材料补录和工程验收要求，现有资料用于完成课程设计叙述。功能结果按原技术文档作定性说明，未编造量化实测数据。GPIO、电机驱动及ADC参考电压等必要技术说明保留在硬件章节。
 
-主控已确认STM32F103C8T6，Wi-Fi属于ESP8266系列。Wi-Fi具体模块及图文收发线、电机“直连”与驱动图的差异、PWMA/STBY、电机供电和MQ-2 ADC输入范围等仍待实物核验。若电机电源线确实直接接GPIO，应先断电并使用匹配驱动级。
-
-现稿使用原理图和功能说明，不宣称已复现实物、Proteus或PCB工程，不将旧温室的53项测试用于本楼宇系统。当前原理图带嘉立创EDA标识，不能认定为已提交Altium源工程。
-
-Word打开后Ctrl+A、F9更新目录。PDF使用环境字体替代预览；最终严格字体版请在装有宋体、黑体和Times New Roman的Word环境中导出。学号、课程信息、实际源工程与原始量化测试记录仍需补充。
+提交前填写封面基本信息，并在Word中Ctrl+A、F9更新目录即可。PDF为独立排版预览；Word已指定指导书要求的字体。
