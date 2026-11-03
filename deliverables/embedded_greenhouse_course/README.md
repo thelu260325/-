@@ -1,5 +1,7 @@
 # 嵌入式系统设计模式课程论文：微型温室
 
+> 此目录为此前温室方案的历史稿。2026年11月3日已依据小组实际技术文档改为[智能楼宇课程论文](../smart_building_course/README.md)，请优先使用新版。
+
 题目：**基于STM32与FreeRTOS的微型温室环境监测与联动控制系统设计**。
 
 - [下载Word可编辑初稿](Greenhouse_Course_Paper_Draft.docx?raw=true)
