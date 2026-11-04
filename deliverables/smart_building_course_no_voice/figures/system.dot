@@ -1,0 +1,18 @@
+digraph System {
+graph [rankdir=LR,bgcolor=white,nodesep=.35,ranksep=.55,dpi=200];
+node [shape=box,style="rounded,filled",fillcolor="#F2F6FA",fontname="Noto Sans CJK SC",fontsize=14,margin=".12,.12"];
+edge [color="#526776",fontname="Noto Sans CJK SC",fontsize=11];
+sensors [label="环境感知\nDHT11：温湿度\nMQ-2：气敏响应\nGL5516：相对光照"];
+keys [label="按键输入\n页面切换 / 阈值设置"];
+mcu [label="STM32F103C8T6\nFreeRTOS多任务\n数据处理与控制决策",fillcolor="#DCECF8"];
+oled [label="OLED显示\n环境数据 / 菜单 / 状态"];
+outputs [label="执行与报警\n风扇 / 灯光PWM\n蜂鸣器 / 指示灯"];
+wifi [label="ESP8266\nAT通信 / MQTT上传"];
+cloud [label="华为云\n设备管理 / 数据展示"];
+sensors->mcu [label="采样"];
+keys->mcu [label="操作事件"];
+mcu->oled [label="I2C"];
+mcu->outputs [label="GPIO / PWM"];
+mcu->wifi [label="USART1",dir=both];
+wifi->cloud [label="Wi-Fi网络"];
+}

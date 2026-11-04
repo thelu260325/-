@@ -1,0 +1,24 @@
+digraph Connections {
+graph [rankdir=LR,bgcolor=white,nodesep=.22,ranksep=.5,dpi=200];
+node [shape=box,style="rounded,filled",fillcolor="#F5F7FA",fontname="Noto Sans CJK SC",fontsize=13,margin=".1,.08"];
+edge [color="#526776",fontname="Noto Sans CJK SC",fontsize=10];
+mcu [label="STM32F103C8T6\n3.3 V逻辑\n各模块共地",fillcolor="#DCECF8"];
+dht [label="DHT11\nDATA / 3.3 V"];
+mq [label="MQ-2\nAO / 模块5 V供电\n模拟输出须匹配ADC量程"];
+light [label="GL5516\nAO / 3.3 V"];
+keys [label="四个按键\n菜单 / 切换 / 阈值设置"];
+oled [label="OLED\nSCL / SDA"];
+wifi [label="ESP8266\n模块RX / 模块TX\n3.3 V供电"];
+fan [label="电机驱动级 → 风扇\nAIN1 / AIN2\n负载由匹配电源供电"];
+lamp [label="照明驱动 / 灯光\nPWM调光"];
+alarm [label="蜂鸣器 / 指示灯\n声音及状态提示"];
+dht->mcu [label="PB12"];
+mq->mcu [label="PA1 / ADC1_IN1"];
+light->mcu [label="PA6 / ADC1_IN6"];
+keys->mcu [label="PB14 / PB15\nPB1 / PB0"];
+mcu->oled [label="PB8 → SCL\nPB9 → SDA"];
+mcu->wifi [label="PA9 TX → RX\nPA10 RX ← TX",dir=both];
+mcu->fan [label="PB4 → AIN1\nPA8 → AIN2"];
+mcu->lamp [label="PA0 / PWM"];
+mcu->alarm [label="PB13：蜂鸣器\nPA5：状态灯\nPA4：报警灯"];
+}

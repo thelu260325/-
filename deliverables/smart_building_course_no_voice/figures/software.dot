@@ -1,0 +1,15 @@
+digraph G {
+graph [rankdir=TB,bgcolor=white,nodesep=.3,ranksep=.4,dpi=180];
+node [shape=box,style="rounded,filled",fillcolor="#F3F7FA",fontname="Noto Sans CJK SC",fontsize=14];
+edge [color="#526776",fontname="Noto Sans CJK SC",fontsize=11];
+a[label="采集任务\nDHT11 / MQ-2 / GL5516"];
+b[label="带时间戳的环境快照\n数值、单位、有效性、序号"];
+k[label="OLED与按键\n菜单 / 阈值 / 手动命令"];
+w[label="联网与上报任务\nESP8266 AT / MQTT / 华为云"];
+c[label="控制任务：统一输出仲裁\n阈值、模式、故障、命令来源",fillcolor="#DCECF8"];
+o[label="风扇 / 灯光PWM / 蜂鸣器 / 指示灯"];
+a->b;b->c;k->c[label="命令队列"];c->o;
+b->w;b->k;c->k[label="输出状态"];
+n[label="软件组织原则：采集、控制与交互分离\n统一数据含义，独立通知各消费者",shape=note];
+o->n[style=invis];
+}
