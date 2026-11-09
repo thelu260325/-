@@ -1,0 +1,31 @@
+lambda= 5.0: isolated MEC  22.227 ms; actual chain  70.569 ms
+lambda=10.0: isolated MEC  24.930 ms; actual chain  75.253 ms
+lambda=15.0: isolated MEC  28.533 ms; actual chain  81.065 ms
+lambda=20.0: isolated MEC  33.302 ms; actual chain  88.579 ms
+lambda=25.0: isolated MEC  40.115 ms; actual chain  98.522 ms
+lambda=30.0: isolated MEC  49.986 ms; actual chain 112.481 ms
+lambda=35.0: isolated MEC  66.381 ms; actual chain 134.511 ms
+lambda=37.5: isolated MEC  80.084 ms; actual chain 150.173 ms
+lambda=40.0: isolated MEC  99.383 ms; actual chain 174.467 ms
+lambda=42.5: isolated MEC 133.577 ms; actual chain 209.879 ms
+lambda=45.0: isolated MEC 200.097 ms; actual chain 282.127 ms
+{
+  "tagged_polling_theory_s": 0.04395972394768318,
+  "tagged_polling_mean_s": 0.04395530985170104,
+  "tagged_polling_ci95_half": 1.531358921079441e-05,
+  "mm1_max_relative_error": 0.006167789671705087,
+  "mm1_mean_deadline_lambda_max": 40.0,
+  "integrated_tested_rates_meeting_mean_deadline": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0
+  ],
+  "runtime_s": 7.623877184996672,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

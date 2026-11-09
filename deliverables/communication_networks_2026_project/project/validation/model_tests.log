@@ -1,0 +1,15 @@
+test_fcfs_hand_calculation (__main__.ModelTests.test_fcfs_hand_calculation) ... ok
+test_fcfs_vs_scalar_recursion (__main__.ModelTests.test_fcfs_vs_scalar_recursion) ... ok
+test_lecture_example (__main__.ModelTests.test_lecture_example) ... ok
+test_little_and_time_decomposition (__main__.ModelTests.test_little_and_time_decomposition) ... ok
+test_occupancy_area_boundaries (__main__.ModelTests.test_occupancy_area_boundaries) ... ok
+test_polling_boundary (__main__.ModelTests.test_polling_boundary) ... ok
+test_polling_vs_scalar (__main__.ModelTests.test_polling_vs_scalar) ... ok
+test_routing_example (__main__.ModelTests.test_routing_example) ... ok
+test_shannon_units (__main__.ModelTests.test_shannon_units) ... ok
+test_stability_guard (__main__.ModelTests.test_stability_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.057s
+
+OK

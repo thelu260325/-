@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "mm1_points": 11,
+  "pointwise_CI_covering_theory": 10,
+  "maximum_poll_wait_relative_error": 0.0014277495762140546,
+  "note": "Pointwise 95% intervals need not all cover the theoretical mean; no seeds were changed to force coverage."
+}

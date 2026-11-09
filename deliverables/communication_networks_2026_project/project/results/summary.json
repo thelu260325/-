@@ -1,0 +1,20 @@
+{
+  "tagged_polling_theory_s": 0.04395972394768318,
+  "tagged_polling_mean_s": 0.04395530985170104,
+  "tagged_polling_ci95_half": 1.531358921079441e-05,
+  "mm1_max_relative_error": 0.006167789671705087,
+  "mm1_mean_deadline_lambda_max": 40.0,
+  "integrated_tested_rates_meeting_mean_deadline": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0
+  ],
+  "runtime_s": 7.623877184996672,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

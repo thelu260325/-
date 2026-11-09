@@ -1,0 +1,42 @@
+[
+  {
+    "design": "Baseline",
+    "bandwidth_hz": 20000000.0,
+    "mec_rate": 50,
+    "arrival_rate": 40,
+    "mean_s": 0.17417704034162498,
+    "mean_s_ci95_half": 0.0012016991603660025,
+    "miss_fraction": 0.7079293333333333,
+    "miss_fraction_ci95_half": 0.0019174797063530773
+  },
+  {
+    "design": "Faster MEC",
+    "bandwidth_hz": 20000000.0,
+    "mec_rate": 75,
+    "arrival_rate": 40,
+    "mean_s": 0.11029148075300638,
+    "mean_s_ci95_half": 0.00028323579149594036,
+    "miss_fraction": 0.454736,
+    "miss_fraction_ci95_half": 0.0013772435771021278
+  },
+  {
+    "design": "More bandwidth",
+    "bandwidth_hz": 40000000.0,
+    "mec_rate": 50,
+    "arrival_rate": 40,
+    "mean_s": 0.12764151411765218,
+    "mean_s_ci95_half": 0.0011453718077730547,
+    "miss_fraction": 0.4876513333333333,
+    "miss_fraction_ci95_half": 0.0028188242643476195
+  },
+  {
+    "design": "Both upgrades",
+    "bandwidth_hz": 40000000.0,
+    "mec_rate": 75,
+    "arrival_rate": 40,
+    "mean_s": 0.05731445357402884,
+    "mean_s_ci95_half": 9.950233309609939e-05,
+    "miss_fraction": 0.09505833333333331,
+    "miss_fraction_ci95_half": 0.0007210357397605799
+  }
+]

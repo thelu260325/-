@@ -1,0 +1,39 @@
+{
+  "seed": 20261109,
+  "replications": 30,
+  "measured_images_per_replication": 100000,
+  "warmup_images": 20000,
+  "cameras": 4,
+  "mean_size_bits": 1000000.0,
+  "bandwidth_hz": 20000000.0,
+  "snr_db": 10.0,
+  "poll_overhead_s": 0.0002,
+  "mec_service_rate": 50.0,
+  "deadline_s": 0.1,
+  "rates": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0,
+    37.5,
+    40.0,
+    42.5,
+    45.0
+  ],
+  "rate_bps": 69188632.37274595,
+  "transmission_s": 0.014453241315894393,
+  "slot_s": 0.014653241315894393,
+  "cycle_s": 0.05861296526357757,
+  "radio_capacity_images_s": 68.24428660130633,
+  "backhaul_s": 0.002700000000000001,
+  "selected_route": [
+    "C1",
+    "A",
+    "B",
+    "M"
+  ],
+  "selected_route_weight_s": 0.017153241315894394
+}

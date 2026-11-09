@@ -1,0 +1,12 @@
+{
+  "report_pdf_pages": 16,
+  "presentation_slides": 14,
+  "speaker_script_words": 1209,
+  "presentation_seconds": 600,
+  "member_ids_checked": true,
+  "word_figures": 7,
+  "numerical_audit": "passed",
+  "document_build": "passed",
+  "pdf_word_alignment": "Shared Markdown source; PDF typeset with XeLaTeX. Word pagination depends on the reader.",
+  "slide_pdf": "Drawn from same layout primitives; not an Office export."
+}
