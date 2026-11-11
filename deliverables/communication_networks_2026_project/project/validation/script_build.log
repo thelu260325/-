@@ -1,2 +1,6 @@
 Fontconfig error: No writable cache directories
 Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+convert /workspace/tasks/20261107-200327-iGGgXj/communication_networks_project/documents/Presentation_Script_and_QA.docx as a Writer document -> /workspace/tasks/20261107-200327-iGGgXj/communication_networks_project/documents/Presentation_Script_and_QA.pdf using filter : writer_pdf_Export
+Overwriting: /workspace/tasks/20261107-200327-iGGgXj/communication_networks_project/documents/Presentation_Script_and_QA.pdf
+Built speaking script DOCX and actual Writer PDF from shared Markdown.

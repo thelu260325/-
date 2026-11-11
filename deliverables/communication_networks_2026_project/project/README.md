@@ -8,9 +8,9 @@ Prepared for the supplied 2026–2027 assessment brief. Deadline: **21 November 
 
 - `documents/Communication_Networks_Report.pdf`: fixed-layout English report for reading/printing.
 - `documents/Communication_Networks_Report.docx`: editable English report with native equations and contents field.
-- `slides/Communication_Networks_Presentation.pptx`: editable 14-slide presentation with embedded speaker notes.
-- `slides/Communication_Networks_Presentation.pdf`: matching-layout handout, generated from the same layout primitives (not an Office export).
-- `documents/Presentation_Script_and_QA.pdf` / `.docx`: 1,209-word spoken script, timed for 10 minutes, plus suggested Q&A answers.
+- `slides/Communication_Networks_Presentation.pptx`: editable 15-slide presentation with embedded speaker notes.
+- `slides/Communication_Networks_Presentation.pdf`: PDF exported from the actual reviewed PPTX with LibreOffice Impress.
+- `documents/Presentation_Script_and_QA.pdf` / `.docx`: 1,072-word spoken script, timed for 10 minutes, plus 15 suggested Q&A answers.
 - `提交与使用说明_中文.md`: Chinese reading and submission guide.
 
 Update the Word contents field after editing (Ctrl+A, F9 in desktop Word). Cached contents headings are provided; the PDF contains the typeset page-numbered contents.
@@ -51,14 +51,15 @@ The integrated model keeps the actual scheduler-generated MEC arrivals; it does 
 
 ## Optional document rebuilding
 
-Install `requirements-documents.txt` in addition to the numerical requirements. Building documents requires Pandoc, XeLaTeX and Liberation/DejaVu fonts. The supplied build scripts were exercised in the Linux cloud environment; the font paths in `build_slides.py` are Linux paths and may need adjustment elsewhere.
+Install `requirements-documents.txt` in addition to the numerical requirements. Building documents requires Pandoc, XeLaTeX, LibreOffice/soffice and Liberation/DejaVu fonts. The supplied build scripts were exercised in the Linux cloud environment; the font paths in `build_slides.py` are Linux paths and may need adjustment elsewhere.
 
 ```bash
 python code/build_documents.py
 python code/build_slides.py
+python code/build_script.py
 ```
 
-The report is built from `documents/report_template.md`, with tables inserted from current results. Some prose and slides state the supplied baseline numbers; if model inputs change, revise those narrative results too. Generated report Markdown is included for editing. Speaker notes are embedded in PowerPoint and exported separately. A PDF handout is produced from the same slide layout definitions.
+The report is built from `documents/report_template.md`, with tables inserted from current results. Some prose and slides state the supplied baseline numbers; if model inputs change, revise those narrative results too. Generated report Markdown is included for editing. Speaker notes are embedded in PowerPoint and exported separately. The slide PDF is exported from the actual PPTX using LibreOffice/soffice. The speaking-script PDF is exported from its actual DOCX; build_script.py uses a separate A4 layout with one speaking page per member.
 
 ## Evidence and interpretation
 
@@ -67,3 +68,7 @@ All 10 deterministic tests passed. Across the 11 isolated MEC points, maximum re
 The 40 images/s M/M/1 bound concerns the isolated node. The baseline end-to-end sweep meets the 100 ms mean target through the tested 25 images/s point, but not at 30 images/s. No exact continuous threshold is claimed. Both bandwidth and MEC upgrades together reduce the controlled 40 images/s mean to 57.31 ms. Mean delay is distinct from a per-image deadline guarantee.
 
 See `validation/` for logs and audits. Source data, results and references are identified in the report. Team responsibilities are an assigned plan for the members to execute and confirm before submission.
+
+## Presentation review — 11 November 2026
+
+The revised deck has 15 slides and explicitly covers the exponential-image-size investigation. Main diagrams are editable vector shapes, and the result plots use larger labels. The 1,072-word speech is divided into 200 seconds per member (slides 1–5, 6–10 and 11–15). At 120 words/minute, pure reading takes about 8 minutes 56 seconds, leaving about 64 seconds for pauses and transitions. Actual delivery requires rehearsal.

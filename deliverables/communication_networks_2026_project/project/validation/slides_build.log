@@ -1,3 +1,4 @@
-Created 14-slide PPTX, PDF handout, notes and Q&A.
-Script words: 1209
-Total target seconds: 600
+convert /workspace/tasks/20261107-200327-iGGgXj/communication_networks_project/slides/Communication_Networks_Presentation.pptx as a Impress document -> /tmp/cn-office-export-0b9rh4x0/Communication_Networks_Presentation.pdf using filter : impress_pdf_Export
+Built 15-slide reviewed PPTX and actual office-exported PDF, with aligned speaker notes.
+Spoken words: 1072
+Allocation: 600 seconds total; 200 seconds per member.

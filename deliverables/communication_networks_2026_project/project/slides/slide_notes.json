@@ -4,97 +4,119 @@
     "title": "End-to-End Performance\nModelling and Analysis",
     "speaker": "Sun Jiangeng",
     "seconds": 25,
-    "script": "Good morning. We are Sun Jiangeng, Qian Tu and Lu Zipeng. Our project investigates how images travel from industrial cameras to an edge server for AI-based quality inspection. We combine network routing, wireless polling and queueing theory. Our central question is whether a fast processing server is enough to guarantee timely delivery of every image."
+    "script": "Hello everyone. We are Sun Jiangeng, Qian Tu and Lu Zipeng. Our project follows product images from industrial cameras to an edge server for AI quality inspection. We ask how routing, wireless scheduling and server queues affect delivery time, and which upgrades can help when traffic increases.",
+    "words": 47
   },
   {
     "slide": 2,
     "title": "Three tasks, one image journey",
     "speaker": "Sun Jiangeng",
-    "seconds": 35,
-    "script": "The assessment has three connected tasks. First, we model cameras, base stations and the edge server as a graph and select a route. Second, we use Shannon's formula and a clearly specified polling schedule to derive wireless delay. Third, we analyse an M/M/1 server using Little's law. We then compare theory with Python simulations and examine the complete chain. Our results concern communication and processing delays; the AI classifier itself is outside the model."
+    "seconds": 30,
+    "script": "The project has three connected tasks. We use graph theory to describe the network and select a route. We then use Shannon's formula and a polling schedule to calculate wireless delay. Finally, we use queueing theory to analyse the edge server. Python simulations test these calculations and connect the stages into a complete image journey.",
+    "words": 55
   },
   {
     "slide": 3,
-    "title": "An illustrative, fully declared baseline",
+    "title": "The numerical inputs are explicit assumptions",
     "speaker": "Sun Jiangeng",
     "seconds": 40,
-    "script": "The brief does not specify numerical inputs, so these are declared design assumptions. We use four cameras, one-megabit images, twenty megahertz of bandwidth and a ten-decibel signal-to-noise ratio. The edge server processes fifty images per second on average. We choose one hundred milliseconds as an illustrative mean-time target. Camera arrivals are independent Poisson streams. Baseline images have fixed size, while edge processing times are exponential. These are distinct assumptions about two different stages of the system."
+    "script": "The brief gives no numerical parameters, so we clearly label ours as assumptions. We use four cameras, one-megabit images, twenty megahertz of bandwidth and a ten-decibel signal-to-noise ratio. The MEC, or multi-access edge computing server, processes fifty images per second on average. Our chosen mean-delay target is one hundred milliseconds. Lambda always means the total arrival rate across all four cameras, divided equally between them.",
+    "words": 65
   },
   {
     "slide": 4,
-    "title": "A graph makes the routing decision explicit",
+    "title": "A graph describes the available paths",
     "speaker": "Sun Jiangeng",
     "seconds": 55,
-    "script": "Each camera, base station and server is a graph vertex. Directed edges represent possible uplink and backhaul links. Camera nodes carry an arrival rate and image size. The edge server carries its processing rate and queue discipline. Link attributes include capacity and propagation delay. Base station A can reach the server directly, or cooperate with base station B. Our example has one active camera cell, so the faster backhaul links do not develop queues. The wireless capacity shown here is available only while a camera is scheduled. It is not simultaneously available to all four cameras."
+    "script": "The graph contains cameras, small base stations and the MEC server. Directed links carry capacities and propagation delays. Base station A can reach the server directly, or relay through base station B. The direct link has lower capacity than the two relay links. In this single-cell example, wireless images leave at least fourteen point six five milliseconds apart, while each relay link needs only one millisecond to transmit an image. Therefore these backhaul links do not queue. The wireless rate is available only to the camera currently scheduled.",
+    "words": 88
   },
   {
     "slide": 5,
-    "title": "The extra hop is faster in this graph",
+    "title": "A faster route can have an extra hop",
     "speaker": "Sun Jiangeng",
-    "seconds": 45,
-    "script": "We assign each link a nonnegative weight equal to image size divided by link capacity, plus propagation delay. Dijkstra's algorithm selects the smallest sum. The direct wired backhaul takes eleven milliseconds per image. The two-hop path takes only two point seven milliseconds because its links have higher capacity. Including the common wireless transmission, the selected route takes seventeen point one five milliseconds before polling and processing are added. It saves eight point three milliseconds. This is the shortest unloaded transmission route for this graph, rather than a guarantee about every possible congestion condition."
+    "seconds": 50,
+    "script": "Dijkstra's algorithm minimises the sum of nonnegative link delays: image size divided by link capacity, plus propagation. The direct wired backhaul takes eleven milliseconds per image. The two-hop backhaul takes two point seven milliseconds. Including the common wireless payload gives a selected route weight of seventeen point one five milliseconds. That weight excludes the grant, polling wait and MEC processing, which we add separately. The relay saves eight point three milliseconds. Qian will now explain when a camera can transmit and how long its wireless stage takes.",
+    "words": 87
   },
   {
     "slide": 6,
-    "title": "Shannon gives the scheduled radio rate",
+    "title": "Shannon gives an ideal scheduled rate",
     "speaker": "Qian Tu",
-    "seconds": 45,
-    "script": "I will explain the wireless model. Shannon's capacity formula is bandwidth multiplied by the base-two logarithm of one plus the linear signal-to-noise ratio. Ten decibels corresponds to a linear value of ten. With twenty megahertz, the result is sixty-nine point one nine megabits per second. A one-megabit image therefore takes fourteen point four five milliseconds to transmit. This is an ideal capacity calculation. Actual throughput can be lower because of coding, interference and retransmissions. Our model grants all resource blocks to one camera at a time, which is a simple OFDMA scheduling case."
+    "seconds": 40,
+    "script": "Shannon's rate is bandwidth multiplied by the base-two logarithm of one plus the linear signal-to-noise ratio. Ten decibels converts to a linear value of ten. Our scheduled rate is sixty-nine point one nine megabits per second, so a one-megabit image needs fourteen point four five milliseconds. We assign all OFDMA resource blocks to one camera per visit, reusing them in time. This is a simplified scheduling case with an ideal radio rate.",
+    "words": 72
   },
   {
     "slide": 7,
-    "title": "A visit is not immediately available",
+    "title": "Random arrival phase creates polling wait",
     "speaker": "Qian Tu",
-    "seconds": 55,
-    "script": "The base station visits cameras one to four cyclically. Each visit includes a grant interval and transmission of at most one image. An unused reservation remains idle. One visit lasts fourteen point six five milliseconds, and a full cycle lasts fifty-eight point six one milliseconds. Consider an isolated tagged image arriving at a random phase, with no older image waiting. Its mean residual wait is half a cycle. Adding the grant and transmission gives forty-three point nine six milliseconds. This particular formula assumes random arrival phase. A simultaneous batch at the start of a cycle would have a different average waiting time."
+    "seconds": 45,
+    "script": "The base station visits cameras one to four in a fixed cycle. Each visit includes overhead and at most one image. Empty visits remain reserved. One cycle lasts fifty-eight point six one milliseconds. For an isolated image arriving at a random phase, the mean wait is half a cycle. Adding its grant and payload gives forty-three point nine six milliseconds. This reference assumes no older image at that camera. It is different from a simultaneous batch arriving at the cycle boundary.",
+    "words": 81
   },
   {
     "slide": 8,
-    "title": "Camera backlog adds another load effect",
+    "title": "Backlog increases the camera waiting time",
     "speaker": "Qian Tu",
-    "seconds": 55,
-    "script": "At higher traffic loads, there may already be older images at the same camera. A new image can then miss more than one visit. For our reserved one-image polling rule, the exact mean wait is the cycle length divided by twice one minus the camera's visit utilisation. The report derives this using the queue observed after each visit and Little's law. At twenty-five images per second, the mean polling wait is forty-six point two five milliseconds. At forty images per second it is seventy point eight one milliseconds. The simulation agrees with this formula to within about zero point one four percent across the tested rates."
+    "seconds": 40,
+    "script": "When older images are waiting, a new image may wait through several visits. For our reserved one-image rule, the mean polling wait is C divided by two times the quantity one minus r. Here r is the utilisation of one camera's reserved visits. At a total arrival rate of twenty-five images per second, the wait is forty-six point two five milliseconds. This wait excludes the image's own grant and payload.",
+    "words": 70
   },
   {
     "slide": 9,
-    "title": "Test each model, then connect the stages",
+    "title": "Image-size variability changes transmission service",
     "speaker": "Qian Tu",
-    "seconds": 45,
-    "script": "We use three experiments: the isolated M/M/1 server, the exact polling system and the actual connected chain. Each tested arrival rate has thirty independent replications. Each replication retains one hundred thousand images after a twenty-thousand-image warm-up. Confidence intervals are calculated from replication means, because delays within a run are correlated. Ten deterministic tests check the scheduling, queue recursion, route selection and lecture example. We also check that end-to-end delay equals the sum of its measured components. Lu will now explain the server analysis and the final results."
+    "seconds": 40,
+    "script": "The brief also asks about random image size. If size X is exponential with mean S and transmission rate R is constant, duration X divided by R is exponential too. With Poisson input and a continuously available transmitter, that supports M/M/1. Fixed-size images instead give deterministic transmission service, supporting M/D/1 under those same conditions. Our cyclic polling and fixed overhead require separate treatment. MEC processing times are a different modelling assumption.",
+    "words": 75
   },
   {
     "slide": 10,
-    "title": "The required M/M/1 mean-delay bound",
-    "speaker": "Lu Zipeng",
-    "seconds": 50,
-    "script": "The server state counts waiting images plus the image being processed. Arrivals increase the state at rate lambda; completions reduce it at rate mu when the server is occupied. Stability requires lambda smaller than mu. Using the geometric stationary probabilities and Little's law gives mean system time one divided by mu minus lambda. This includes both waiting and processing. Setting that mean to at most one hundred milliseconds, with a service rate of fifty images per second, gives a maximum arrival rate of forty images per second. This bound applies to the isolated Poisson-input server, not automatically to the complete image journey."
+    "title": "Simulation tests each stage and the whole chain",
+    "speaker": "Qian Tu",
+    "seconds": 35,
+    "script": "We simulate both the isolated M/M/1 server and the actual polled chain. Each arrival-rate experiment uses thirty independent runs, with one hundred thousand measured images after a twenty-thousand-image warm-up. Confidence intervals use run averages because successive image delays are correlated. Ten deterministic tests pass, including the lecture example. We also check that the measured delay components add up. Lu will now explain the server bound and final results.",
+    "words": 70
   },
   {
     "slide": 11,
-    "title": "Theory and simulation agree at the server",
+    "title": "Little\u2019s law gives the M/M/1 delay bound",
     "speaker": "Lu Zipeng",
-    "seconds": 40,
-    "script": "The curve shows the rapid increase in queueing delay as the arrival rate approaches the processing rate. Simulated means closely follow the theoretical values, with a maximum relative difference of zero point six two percent. At forty images per second, theory gives one hundred milliseconds and simulation gives ninety-nine point three eight milliseconds. Error bars represent pointwise ninety-five-percent confidence intervals. Ten of eleven intervals cover the theoretical mean. We report that outcome explicitly rather than adjusting random seeds to force all points to match."
+    "seconds": 55,
+    "script": "Here we analyse the required isolated server: Poisson arrivals, independent exponential processing and one server. State k counts waiting images plus the image being processed. Arrivals increase the state at rate lambda; departures reduce it at rate mu. Stability requires lambda below mu. Little's law connects the average number of images to their arrival rate and mean time. It gives T equal to one divided by the difference between mu and lambda. T includes waiting and processing. With mu equal to fifty and a one-hundred-millisecond limit, the maximum arrival rate is forty images per second.",
+    "words": 95
   },
   {
     "slide": 12,
-    "title": "The complete chain has a lower latency capacity",
+    "title": "The isolated server follows the theoretical curve",
     "speaker": "Lu Zipeng",
-    "seconds": 45,
-    "script": "Connecting the stages changes the answer. At twenty-five images per second, mean end-to-end delay is ninety-eight point five two milliseconds. At thirty images per second, it rises to one hundred twelve point four eight milliseconds. Therefore twenty-five is the highest tested rate meeting the mean target, not a proven exact threshold. Polling changes the server's arrival statistics, so simply adding an M/M/1 server time is only an approximation. The component plot shows both camera waiting and server processing. Twenty images per second provides more operating margin in the baseline."
+    "seconds": 40,
+    "script": "This plot compares simulated server time with M/M/1 theory. The largest relative difference in the mean is zero point six two percent. At forty images per second, theory gives one hundred milliseconds and simulation gives ninety-nine point three eight. Ten of eleven pointwise ninety-five-percent intervals cover theory. Universal coverage is not guaranteed. As load approaches processing capacity, waiting grows sharply, so spare capacity is important for low delay.",
+    "words": 70
   },
   {
     "slide": 13,
-    "title": "Upgrade radio and processing together",
+    "title": "End-to-end delay includes the upstream stages",
     "speaker": "Lu Zipeng",
     "seconds": 40,
-    "script": "We also compare four designs at the same offered load. The baseline mean is about one hundred seventy-four milliseconds. A faster server alone gives one hundred ten milliseconds, and more bandwidth alone gives one hundred twenty-eight milliseconds. Combining both upgrades gives fifty-seven point three one milliseconds, a reduction of about sixty-seven percent. However, about nine point five percent of images still exceed one hundred milliseconds. The combined upgrade meets the chosen mean target, while a strict reliability requirement would need further design work."
+    "script": "The complete chain has additional waiting and transmission stages. At twenty-five images per second, mean total delay is ninety-eight point five two milliseconds. At thirty, it is one hundred twelve point four eight. Twenty-five is therefore the highest tested rate meeting the mean target; it is not an exact continuous threshold. Polling changes the server's arrival pattern, so we simulate that actual pattern instead of assuming it remains Poisson.",
+    "words": 69
   },
   {
     "slide": 14,
-    "title": "Design for the whole journey",
+    "title": "Radio and processing should be upgraded together",
     "speaker": "Lu Zipeng",
-    "seconds": 25,
-    "script": "Our conclusions are threefold. Route capacity matters as well as hop count. Polling delay increases with camera backlog. And an isolated server delay bound is not an end-to-end guarantee. Our code, diagrams and data make these findings reproducible. The next engineering step would be to measure real traffic and processing times, then specify a numerical reliability target. Thank you. We welcome your questions."
+    "seconds": 45,
+    "script": "At forty images per second, we compare four designs using the same traffic assumptions. A faster server alone and more bandwidth alone still miss the mean target. Combining forty megahertz with a server rate of seventy-five images per second reduces the mean to fifty-seven point three one milliseconds, about sixty-seven percent below baseline. The bandwidth comparison holds SNR fixed at ten decibels, so power and cost must also be considered. About nine point five percent of images still miss the deadline: a low mean is not a per-image guarantee.",
+    "words": 89
+  },
+  {
+    "slide": 15,
+    "title": "Design for the whole image journey",
+    "speaker": "Lu Zipeng",
+    "seconds": 20,
+    "script": "To conclude, link capacity matters as well as hop count. Polling and server queues both affect delay. A server-only bound cannot guarantee end-to-end performance, and mean delay must be distinguished from deadline reliability. Thank you. We welcome your questions.",
+    "words": 39
   }
 ]

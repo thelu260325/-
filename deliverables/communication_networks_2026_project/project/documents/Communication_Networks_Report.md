@@ -289,8 +289,8 @@ The group assigns primary ownership as shown below, with cross-review of the com
 | Member and student ID | Technical ownership | Shared deliverables and presentation |
 |:--|:--|:--|
 | Sun Jiangeng — 202612491511 | Topology, edge attributes, Dijkstra route and parameter justification | Write/review Sections 2–3; check file organisation and report format; present slides 1–5 |
-| Qian Tu — 202612491508 | Shannon rate, OFDMA interpretation, polling derivations and polling simulation | Write/review Section 4 and relevant simulation method; check diagrams and units; present slides 6–9 |
-| Lu Zipeng — 202612491522 | M/M/1 derivation, delay bound, service-size investigation and MEC validation | Write/review Section 5 and numerical comparisons; check references and results; present slides 10–14 |
+| Qian Tu — 202612491508 | Shannon rate, OFDMA interpretation, polling derivations, polling simulation and the transmission-size case | Write/review Section 4 and relevant simulation method; check diagrams and units; present slides 6–10 |
+| Lu Zipeng — 202612491522 | M/M/1 derivation, delay bound, service-size investigation and MEC validation | Write/review Section 5 and numerical comparisons; check references and results; present slides 11–15 |
 
 All three members jointly review the integrated-chain results, optimisation, conclusions, final report and Q&A. Rehearsal targets are 3 minutes 20 seconds per member, totalling 10 minutes. The accompanying speaker script follows this division.
 
@@ -351,6 +351,6 @@ python code/make_figures.py
 | Code, delay curves and theory comparisons | `code/`, `results/`, `figures/`; Report Section 6 |
 | Bottlenecks and optimisation recommendations | Report Section 7 |
 | English report, cover, contents and responsibilities | Report PDF/Word; Section 9 |
-| 10-minute presentation and questions | 14-slide deck and speaker/Q&A notes |
+| 10-minute presentation and questions | 15-slide deck and speaker/Q&A notes |
 
 The PDF is the fixed-layout printing copy. The Word version is editable; update its contents field after editing. The supplied brief requires both electronic and paper report submission. The deadline is 21 November 2026; submission time, platform and presentation date were not specified in the supplied document.

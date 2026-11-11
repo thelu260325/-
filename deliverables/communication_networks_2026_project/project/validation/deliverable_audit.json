@@ -1,12 +1,20 @@
 {
+  "review_date": "2026-11-11",
   "report_pdf_pages": 16,
-  "presentation_slides": 14,
-  "speaker_script_words": 1209,
+  "presentation_slides": 15,
+  "speaker_script_words": 1072,
+  "script_pdf_pages": 6,
   "presentation_seconds": 600,
-  "member_ids_checked": true,
-  "word_figures": 7,
+  "member_seconds": {
+    "Sun Jiangeng": 200,
+    "Qian Tu": 200,
+    "Lu Zipeng": 200
+  },
+  "ppt_notes_word_pdf_speech_match": true,
+  "missing_native_slide_text": [],
+  "out_of_page_words": [],
   "numerical_audit": "passed",
-  "document_build": "passed",
-  "pdf_word_alignment": "Shared Markdown source; PDF typeset with XeLaTeX. Word pagination depends on the reader.",
-  "slide_pdf": "Drawn from same layout primitives; not an Office export."
+  "slide_pdf": "Actual PPTX exported by LibreOffice Impress",
+  "script_pdf": "Actual DOCX exported by LibreOffice Writer",
+  "timing_note": "Rehearsal allocations, not measured live delivery."
 }
